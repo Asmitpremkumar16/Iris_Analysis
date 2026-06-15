@@ -65,7 +65,7 @@ elif page == "EDA":
 
     if plot_engine == "Seaborn (EDA)":
 
-        feature = st.selectbox("Select a feature", data.drop(columns=['type'], axis=1).columns)
+        feature = st.selectbox("Select a feature", data.drop(columns=['type']).columns)
 
 
         # 1.Histogram
