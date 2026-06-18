@@ -242,7 +242,7 @@ elif page == "EDA":
 
 # ML Model
 
-elif page == "ML Models":
+elif page == "ML Model":
     st.title("Machine Learning Model")
 
     X = data.drop('type', axis=1)
