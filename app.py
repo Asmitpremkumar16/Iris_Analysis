@@ -16,7 +16,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 st.set_page_config(page_title="Iris EDA & ML App", layout="wide")
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Choose an Option", ["Dataset Overview", "EDA", "ML Models", "Prediction"])
+page = st.sidebar.radio("Choose an Option", ["Dataset Overview", "EDA", "ML Model", "Prediction"])
 
 # Load dataset 
 
